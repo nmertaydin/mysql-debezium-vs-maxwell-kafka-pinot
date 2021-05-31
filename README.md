@@ -1,8 +1,6 @@
-# MySQL Debezium vs. Maxwell Kafka Pinot CDC Flow
+# MySQL Debezium vs. Maxwell Kafka Pinot CDC (Change Data Capture) Flow
 
-This is another tryout I prepared to demonstrate CDC (change data capture).
-
-[Here](https://mert.codes/hello-hello-i-detected-a-change-on-this-database-1bdadea6b4c6) is my post about this tryout.
+This is another tryout I prepared to demonstrate CDC (change data capture). This is almost the same with [my other tryout](https://github.com/nmertaydin/mysql-debezium-kafka-pinot), except there are two change data capture tools active in this one: Debezium and Maxwell, detecting changes on the same database.
 
 ### The Ingredients
 
