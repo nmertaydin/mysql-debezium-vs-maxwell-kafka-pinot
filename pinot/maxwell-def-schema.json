@@ -1,0 +1,33 @@
+{
+  "schemaName": "poc_maxwell",
+  "dimensionFieldSpecs": [
+    {
+      "name": "m_database",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "m_table",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "m_type",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    },
+    {
+      "name": "m_data",
+      "dataType": "STRING",
+      "defaultNullValue": ""
+    }
+  ],
+  "metricFieldSpecs": [
+  ],
+  "dateTimeFieldSpecs": [{
+    "name": "ts",
+    "dataType": "LONG",
+    "format" : "1:MILLISECONDS:EPOCH",
+    "granularity": "1:MILLISECONDS"
+  }]
+}
